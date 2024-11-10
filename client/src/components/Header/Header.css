@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black-color);
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--white-color);
+}
+.nav-links {
+  display: flex;
+  gap: 4rem;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.login {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.signup {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.nav-links a:hover {
+  background-color: var(--white-color);
+}

@@ -1,0 +1,38 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black-color);
+  height: 90vh;
+}
+
+.hero-content {
+  width: 50%;
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero-content button {
+  outline: none;
+  border: none;
+  margin-bottom: 1rem;
+}
+.hero-img {
+  background-image: url("../../../assets/hero-img.png");
+
+  width: 40rem;
+  height: 40rem;
+}

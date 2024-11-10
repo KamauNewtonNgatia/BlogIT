@@ -1,0 +1,31 @@
+.Overall-signup-form form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 1rem auto;
+}
+.signup-heading {
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+form button {
+  margin-top: 1rem;
+}
+
+form label {
+  text-transform: capitalize;
+}
+
+.login-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  /* border: 1px solid var(--primary-color); */
+  background-color: var(--secondary-color);
+  width: max-content;
+  margin: 1rem auto;
+  color: var(--white-color);
+  padding: 1rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+}

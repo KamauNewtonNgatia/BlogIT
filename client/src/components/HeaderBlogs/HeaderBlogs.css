@@ -1,0 +1,16 @@
+.blog-nav-links ol {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.nav-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
